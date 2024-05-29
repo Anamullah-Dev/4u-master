@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, ScrollView, Alert, RefreshControl, TouchableOpacity, Dimensions } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { navigation } from '@react-navigation/native';
+
 
 import { auth } from './firebase';
 import { getFirestore, doc, getDoc, collection, updateDoc } from 'firebase/firestore';
