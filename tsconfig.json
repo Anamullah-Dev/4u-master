@@ -1,0 +1,9 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {},
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "screens/LoginPage.tsx"
+, "screens/categories.jsx"  ]
+}
